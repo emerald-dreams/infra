@@ -1,0 +1,11 @@
+services:
+    portainer:
+        image: 'portainer/portainer-ce'
+        ports:
+            - '8001:8000'
+            - '9443:9443'
+            - '8002:9000'
+        restart: always
+        volumes:
+            - '/var/run/docker.sock:/var/run/docker.sock'
+            - './portainer:/data'

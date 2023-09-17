@@ -1,0 +1,11 @@
+.idea
+
+caddy
+!caddy/config/.gitkeep
+!caddy/data/.gitkeep
+
+portainer
+!portainer/data/.gitkeep
+
+postgres
+!postgres/data/.gitkeep

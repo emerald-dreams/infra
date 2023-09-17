@@ -1,0 +1,3 @@
+portainer.emeralddreams.co.id {
+    reverse_proxy portainer:9000
+}

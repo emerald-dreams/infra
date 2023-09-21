@@ -1,4 +1,4 @@
-portainer.buatan.id {
+docker.emeralddreams.co.id, portainer.buatan.id {
     reverse_proxy portainer:9000
 }
 
@@ -6,10 +6,22 @@ emeralddreams.co.id {
     reverse_proxy web:3000
 }
 
+emeralddreams-staging.co.id, staging-emeralddreams.buatan.id {
+    reverse_proxy web-staging:3000
+}
+
 cms.emeralddreams.co.id {
     reverse_proxy cms:3000
 }
 
+cms-staging.emeralddreams.co.id, cms-staging-emeralddreams.buatan.id {
+    reverse_proxy cms-staging:3000
+}
+
 api.emeralddreams.co.id {
     reverse_proxy api:8000
+}
+
+api-staging.emeralddreams.co.id, api-staging-emeralddreams.buatan.id {
+    reverse_proxy api-staging:8000
 }

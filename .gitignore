@@ -9,3 +9,7 @@ portainer
 
 postgres
 !postgres/data/.gitkeep
+
+.env
+.env.*
+*.env

@@ -43,7 +43,7 @@ services:
         env_file:
             - ../api/.env
     api-staging:
-        image: ghcr.io/emerald-dreams/emerald-dreams-be-develop:latest
+        image: emerald-dreams/emerald-dreams-be-develop:latest
         container_name: api-staging
         restart: unless-stopped
         ports:
